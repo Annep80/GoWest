@@ -150,8 +150,8 @@ input {
     display: flex;
 }
 .para1{
-    border: 2px solid orange;
-    border-radius: 5px;
+    border: 2px solid #f18805;
+    border-radius: 20px;
     padding: 30px;
 }
 .photo{
@@ -161,12 +161,35 @@ input {
 .productsclients{
     text-align: center;
 }
-.slide{
+.slide img{
+    align-items: flex-start;
+}
+.slide1{
     float: left;
+    width: auto;
+    margin-top: -6px;
+}
+.slide2{
+    float:left;
+    width: auto;
+}
+.slide3{
+    float: left;
+    width: auto;
+    margin-top: -6px;
+}
+.slide4{
+    float: left;
+    width: auto;
+    margin-top: -6px;
+}
+.slide5{
+    float: left;
+    width: auto;
 }
 .slides{
     width: calc(550px * 5);
-    animation: glisse 35s infinite ; 
+    animation: glisse 25s infinite ; 
 }
 @keyframes glisse {
     0% {
@@ -182,7 +205,7 @@ input {
         transform: translateX(-1600px);
     }
     90% {
-        transform: translateX(-2130px);
+        transform: translateX(-2135px);
     }
     100% {
         transform: translateX(0);
@@ -191,9 +214,9 @@ input {
 .slider{
     width:500px;
     overflow:hidden;
-    margin: auto;
+    margin: auto;;
     border-radius: 20px;
-    border: solid 2px #f18805;
+    position: relative;
 }
 .model{
     text-align: center;
