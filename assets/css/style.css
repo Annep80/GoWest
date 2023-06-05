@@ -150,10 +150,9 @@ input {
     display: flex;
 }
 .para1{
-    border: 2px solid orange;
-    border-radius: 5px;
+    border: 2px solid #f18805;
+    border-radius: 20px;
     padding: 30px;
-
 }
 .photo{
     width: 200%;
@@ -162,16 +161,10 @@ input {
 .productsclients{
     text-align: center;
 }
-.shoes img {
-    width :250px;
-    height: auto;
-    margin-left: 25px;
-    border-radius:5px ;
-}
-.shoes{
+
+.model{
     text-align: center;
-    display: flex;
-    justify-content:center;
+    font-size:x-large;
 }
 .client img {
     width: 250px;
@@ -225,7 +218,6 @@ footer {
     margin-top: 50px;
     margin-bottom: 50px;
 }
-/*fin footer*/
 
 /*  css carousel */
 
@@ -278,4 +270,5 @@ footer {
     z-index: 100;
     transition: left 0.65s ease-out;
   }
+
 
