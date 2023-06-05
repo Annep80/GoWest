@@ -153,7 +153,6 @@ input {
     border: 2px solid orange;
     border-radius: 5px;
     padding: 30px;
-
 }
 .photo{
     width: 200%;
@@ -162,16 +161,43 @@ input {
 .productsclients{
     text-align: center;
 }
-.shoes img {
-    width :250px;
-    height: auto;
-    margin-left: 25px;
-    border-radius:5px ;
+.slide{
+    float: left;
 }
-.shoes{
+.slides{
+    width: calc(550px * 5);
+    animation: glisse 35s infinite ; 
+}
+@keyframes glisse {
+    0% {
+        transform:translateX(0);
+    }
+    25% {
+        transform: translateX(-550px);
+    }
+    50% {
+        transform: translateX(-1070px);
+    }
+    75% {
+        transform: translateX(-1600px);
+    }
+    90% {
+        transform: translateX(-2130px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+.slider{
+    width:500px;
+    overflow:hidden;
+    margin: auto;
+    border-radius: 20px;
+    border: solid 2px #f18805;
+}
+.model{
     text-align: center;
-    display: flex;
-    justify-content:center;
+    font-size:x-large;
 }
 .client img {
     width: 250px;
