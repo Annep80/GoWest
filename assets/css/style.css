@@ -114,35 +114,6 @@ input {
     font-weight: bold;
 }
 
-/* body css */
-
-#discovery {
-    text-align: center;
-    font-size: xx-large;
-}
-
-#contact {
-    text-align: center;
-    font-size: xx-large;
-    padding-bottom: 50px;
-    padding-top: 20px;
-}
-
-#products {
-    padding-bottom: 50px;
-}
-
-#productsclients {
-    padding-bottom: 50px;
-}
-
-.shoes div p {
-    font-weight: bolder;
-}
-
-.client div div p {
-    font-size: large;
-}
 
 .mention{
     display:flex;
@@ -215,4 +186,22 @@ input {
     width:calc(100%/4);
 
 }
+ /*FOOTER*/
+
+.mention{
+    display:flex;
+   justify-content:center; 
+}
+
+
+
+.legal, .products, .contact{
+  
+margin: 0 100px;
+   font-size:x-large;
+   color:black;
+   text-decoration:none;
+}
+/*fin footer*/
+
 
