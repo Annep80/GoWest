@@ -189,7 +189,7 @@ input {
 }
 .slides{
     width: calc(550px * 5);
-    animation: glisse 45s infinite ; 
+    animation: glisse 40s infinite ; 
 }
 @keyframes glisse {
     0% {
