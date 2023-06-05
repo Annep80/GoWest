@@ -121,7 +121,7 @@ input {
 
 
 .legal, .products, .contact{
-   margin: 0 10%; 
+ margin:0 50px;
    font-size:x-large;
    color:black;
    text-decoration:none;
