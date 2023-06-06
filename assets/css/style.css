@@ -150,10 +150,14 @@ input {
 
 
 .legal, .products, .contact{
-   margin: 0 10%; 
+   margin: 0 100%; 
    font-size:x-large;
    color:black;
    text-decoration:none;
+}
+.footer{
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 
